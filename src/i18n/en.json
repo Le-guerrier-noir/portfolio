@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Full Stack Developer & ERP Consultant",
+    "sub": "3rd-year Computer Science student (BUT), apprenticed at K4-U — Groupe Kardol.",
+    "cta1": "View my projects",
+    "cta2": "Get in touch"
+  },
+  "skills": {
+    "eyebrow": "What I know",
+    "title": "Skills",
+    "cat": {
+      "lang": "Languages",
+      "tools": "Tools",
+      "erp": "ERP & Integration",
+      "soft": "Soft skills"
+    }
+  },
+  "tag": {
+    "co": "Collaboration",
+    "cm": "Communication",
+    "au": "Autonomy",
+    "ri": "Reliability"
+  },
+  "parcours": {
+    "eyebrow": "My story",
+    "title": "Background",
+    "edu": "Education",
+    "exp": "Experience"
+  },
+  "label": {
+    "now": "Present",
+    "apprenticeship": "Apprenticeship"
+  },
+  "edu": {
+    "but": "Bachelor in Computer Science (BUT)",
+    "but_desc": "Application development track — work-study program",
+    "bac": "French Baccalaureate"
+  },
+  "exp": {
+    "role": "IFS Technical Consultant",
+    "1": "Business requirements analysis and specification writing",
+    "2": "Automated data migration tool built with Node.js",
+    "3": "IFS Cloud ERP configuration and optimization",
+    "4": "BPMN process modeling and n8n workflow automation",
+    "5": "Technical documentation with MkDocs",
+    "6": "User training and onboarding for IFS ecosystem"
+  },
+  "projects": {
+    "eyebrow": "What I've built",
+    "title": "Projects"
+  },
+  "contact": {
+    "eyebrow": "Let's work together",
+    "title": "Contact",
+    "desc": "An opportunity, an idea, a project? Feel free to reach out directly or through the form.",
+    "location": "Location"
+  },
+  "form": {
+    "name": "Name",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again.",
+    "placeholder": {
+      "name": "Your name",
+      "email": "your@email.com",
+      "message": "Your message..."
+    }
+  },
+  "footer": {
+    "made": "Designed & built with Vue.js"
+  }
+}

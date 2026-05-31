@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Développeur Full Stack & Consultant ERP",
+    "sub": "Étudiant en 3ᵉ année de BUT Informatique, en alternance chez K4-U — Groupe Kardol.",
+    "cta1": "Voir mes projets",
+    "cta2": "Me contacter"
+  },
+  "skills": {
+    "eyebrow": "Ce que je maîtrise",
+    "title": "Compétences",
+    "cat": {
+      "lang": "Langages",
+      "tools": "Outils",
+      "erp": "ERP & Intégration",
+      "soft": "Savoir-être"
+    }
+  },
+  "tag": {
+    "co": "Collaboration",
+    "cm": "Communication",
+    "au": "Autonomie",
+    "ri": "Rigueur"
+  },
+  "parcours": {
+    "eyebrow": "Mon histoire",
+    "title": "Parcours",
+    "edu": "Formation",
+    "exp": "Expérience"
+  },
+  "label": {
+    "now": "En cours",
+    "apprenticeship": "Alternance"
+  },
+  "edu": {
+    "but": "BUT Informatique",
+    "but_desc": "Parcours réalisation d'applications — contrat d'apprentissage",
+    "bac": "Baccalauréat général"
+  },
+  "exp": {
+    "role": "Consultant technique IFS Applications",
+    "1": "Analyse des besoins métiers et rédaction des spécifications",
+    "2": "Outil de migration de données en Node.js",
+    "3": "Paramétrage et optimisation de l'ERP IFS Cloud",
+    "4": "Modélisation BPMN et automatisation de workflows n8n",
+    "5": "Rédaction de documentation technique — MkDocs",
+    "6": "Formation et accompagnement des utilisateurs IFS"
+  },
+  "projects": {
+    "eyebrow": "Ce que j'ai construit",
+    "title": "Projets"
+  },
+  "contact": {
+    "eyebrow": "Travaillons ensemble",
+    "title": "Contact",
+    "desc": "Une opportunité, une idée, un projet ? N'hésitez pas à me contacter directement ou via le formulaire.",
+    "location": "Localisation"
+  },
+  "form": {
+    "name": "Nom",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi...",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur est survenue. Réessayez.",
+    "placeholder": {
+      "name": "Votre nom",
+      "email": "votre@email.com",
+      "message": "Votre message..."
+    }
+  },
+  "footer": {
+    "made": "Conçu & développé avec Vue.js"
+  }
+}
