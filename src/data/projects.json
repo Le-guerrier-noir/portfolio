@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "KMigration",
+    "image": "/kmigration.png",
     "description": {
       "fr": "Outil de reprise et migration de données développé en alternance chez K4-U. Interface desktop construite avec Electron et Vue.js, logique métier en Node.js, communication avec l'ERP IFS Cloud via API REST.",
       "en": "Data migration tool developed during my apprenticeship at K4-U. Desktop interface built with Electron and Vue.js, business logic in Node.js, communication with IFS Cloud ERP via REST API."
@@ -10,7 +11,18 @@
   },
   {
     "id": 2,
+    "title": "Jeu vidéo 2D",
+    "image": "/jeu.png",
+    "description": {
+      "fr": "Moteur de jeu en Python avec Pygame, architecturé autour du pattern ECS via Esper. Documentation utilisateur gérée avec MkDocs.",
+      "en": "Game engine built in Python with Pygame using the ECS architecture pattern via Esper. User documentation managed with MkDocs."
+    },
+    "tags": ["Python", "Pygame", "ECS", "MkDocs"]
+  },
+  {
+    "id": 3,
     "title": "Messagerie temps réel",
+    "image": "/messagerie.png",
     "description": {
       "fr": "Application de chat construite avec Node.js et EJS. Communication via WebSockets avec système d'authentification intégré.",
       "en": "Chat application built with Node.js and EJS. WebSocket-based communication with integrated authentication."
@@ -18,12 +30,23 @@
     "tags": ["Node.js", "WebSockets", "EJS", "Auth"]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Automation n8n",
+    "image": "/n8n.png",
     "description": {
       "fr": "Workflows d'automatisation : envoi d'emails via formulaire de contact et récupération de données météo depuis une API publique.",
       "en": "Automation workflows: email sending from a contact form and weather data retrieval from a public API."
     },
     "tags": ["n8n", "API REST", "Workflows"]
+  },
+  {
+    "id": 5,
+    "title": "Site web statique",
+    "image": "/siteweb.png",
+    "description": {
+      "fr": "Site web statique développé en HTML, CSS et JavaScript vanilla. Mise en page responsive et interactions dynamiques sans framework.",
+      "en": "Static website developed in vanilla HTML, CSS and JavaScript. Responsive layout and dynamic interactions without any framework."
+    },
+    "tags": ["HTML", "CSS", "JavaScript"]
   }
 ]
