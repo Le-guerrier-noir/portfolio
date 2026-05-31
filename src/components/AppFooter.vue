@@ -2,7 +2,6 @@
   <footer class="footer">
     <p>© 2025 Florian Delhaye</p>
     <div class="footer-right">
-      <p>{{ t('footer.made') }}</p>
       <RouterLink to="/legal" class="legal-link">{{ t('footer.legal') }}</RouterLink>
     </div>
   </footer>
