@@ -74,6 +74,25 @@
     }
   },
   "footer": {
-    "made": "Conçu & développé avec Vue.js"
+    "made": "Conçu & développé avec Vue.js",
+    "legal": "Mentions légales"
+  },
+  "legal": {
+    "eyebrow": "Informations légales",
+    "title": "Mentions légales",
+    "editor": { "title": "Éditeur du site" },
+    "host": { "title": "Hébergeur" },
+    "data": {
+      "title": "Données personnelles",
+      "desc": "Les informations collectées via le formulaire de contact (nom, email, message) sont utilisées uniquement pour répondre à vos demandes. Elles ne sont ni stockées, ni transmises à des tiers. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "desc": "Ce site n'utilise aucun cookie de tracking ou publicitaire. Seule la préférence de langue est sauvegardée localement dans votre navigateur."
+    },
+    "ip": {
+      "title": "Propriété intellectuelle",
+      "desc": "L'ensemble du contenu de ce site (textes, design, code) est la propriété de Florian Delhaye. Toute reproduction sans autorisation est interdite."
+    }
   }
 }

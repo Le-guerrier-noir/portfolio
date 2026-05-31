@@ -74,6 +74,25 @@
     }
   },
   "footer": {
-    "made": "Designed & built with Vue.js"
+    "made": "Designed & built with Vue.js",
+    "legal": "Legal notice"
+  },
+  "legal": {
+    "eyebrow": "Legal information",
+    "title": "Legal notice",
+    "editor": { "title": "Website publisher" },
+    "host": { "title": "Hosting provider" },
+    "data": {
+      "title": "Personal data",
+      "desc": "Information collected via the contact form (name, email, message) is used solely to respond to your requests. It is neither stored nor shared with third parties. In accordance with GDPR, you have the right to access, correct and delete your data."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "desc": "This site uses no tracking or advertising cookies. Only your language preference is saved locally in your browser."
+    },
+    "ip": {
+      "title": "Intellectual property",
+      "desc": "All content on this site (text, design, code) is the property of Florian Delhaye. Any reproduction without permission is prohibited."
+    }
   }
 }
