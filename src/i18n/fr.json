@@ -57,7 +57,7 @@
   "contact": {
     "eyebrow": "Travaillons ensemble",
     "title": "Contact",
-    "desc": "Une opportunité, une idée, un projet ? N'hésitez pas à me contacter directement ou via le formulaire.",
+    "desc": "Une opportunité, une idée, un projet ? Écrivez-moi directement ou via le formulaire.",
     "location": "Localisation"
   },
   "form": {
@@ -69,7 +69,7 @@
     "error": "Une erreur est survenue. Réessayez.",
     "placeholder": {
       "name": "Votre nom",
-      "email": "votre@email.com",
+      "email": "votre{'@'}email.com",
       "message": "Votre message..."
     }
   },

@@ -57,7 +57,7 @@
   "contact": {
     "eyebrow": "Let's work together",
     "title": "Contact",
-    "desc": "An opportunity, an idea, a project? Feel free to reach out directly or through the form.",
+    "desc": "An opportunity, an idea, a project? Write to me directly or through the form.",
     "location": "Location"
   },
   "form": {
@@ -69,7 +69,7 @@
     "error": "Something went wrong. Please try again.",
     "placeholder": {
       "name": "Your name",
-      "email": "your@email.com",
+      "email": "your{'@'}email.com",
       "message": "Your message..."
     }
   },
