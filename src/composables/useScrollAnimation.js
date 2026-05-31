@@ -1,18 +1,21 @@
-import { onMounted } from 'vue'
+import { onMounted, nextTick } from 'vue'
 
 export function useScrollAnimation() {
-  onMounted(() => {
-    setTimeout(() => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible')
-            observer.unobserve(entry.target)
-          }
-        })
-      }, { threshold: 0.1 })
+  onMounted(async () => {
+    await nextTick()
 
-      document.querySelectorAll('.animate').forEach(el => observer.observe(el))
-    }, 100)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible')
+          observer.unobserve(entry.target)
+        }
+      })
+    }, {
+      threshold: 0,
+      rootMargin: '0px 0px -50px 0px'
+    })
+
+    document.querySelectorAll('.animate').forEach(el => observer.observe(el))
   })
 }
